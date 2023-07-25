@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="manifest" href="/manifest.json">
+	<title>landing</title>
+</head>
+<body>
+	<body>
+    <div class="modal hide" id="modal">
+        <div class="modal-wrap">
+            <div class="modal-close" id="modalClose">
+                <img src="img/close.png" alt="close">
+            </div>
+            <div class="modal-body">
+                <form action="#" class="modal-form">
+                    <div class="modal-form__body">
+                        <div class="modal-inp">
+                            <div class="modal-inp__text">Введите ваше имя*</div>
+                            <input type="text" class="modal-inp__input">
+                        </div>
+                        <div class="modal-inp">
+                            <div class="modal-inp__text">Введите ваш телефон*</div>
+                            <input type="text" class="modal-inp__input">
+                        </div>
+                    </div>
+                    <button class="modal-btn">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <div class="nav-logo__img">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <div class="nav-logo__text">
+                        <span>BMW <br></span>
+                        The best of luxury.
+                    </div>
+                </div>
+                <div class="nav-dropdown" id="openDropdown">
+                    <button class="nav-dropdown__btn">Меню</button>
+                    <div id="nav-myDropdown" class="nav-dropdown__content hide">
+                        <a href="#" class="nav-dropdown__block">Акции</a>
+                        <a href="#" class="nav-dropdown__block">Тест-Драйв</a>
+						<a href="#" class="nav-dropdown__block">Контакты</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="container">
+            <div class="main-content">
+                <h1 class="main-content__title">Модели</h1>
+                <div class="main-block">
+                    <div class="main-content__img">
+                        <img src="img/mainPicture.jpg" alt="img">
+                    </div>
+                    <div class="main-content__models">
+                    <a href="#" class="main-content__model">BMW 5 Series
+                            </a>
+                        <a href="#" class="main-content__model">BMW 3 Series</a>
+                        <a href="#" class="main-content__model">BMW 7 Series
+                            </a>
+                        <a href="#" class="main-content__model">BMW X5
+                            </a>
+                        <a href="#" class="main-content__model">BMW X6
+                            </a>
+                        <a href="#" class="main-content__model">BMW M5 F90
+                            </a>
+                        <a href="#" class="main-content__model">BMW M8
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-contacts">
+                    <div class="footer-contacts__address">295285, Нижегородская область, город Кстово, пл. Ленина 
+                        23</div>
+                    <a href="tel:+79999999999" class="footer-contacts__phone">+79999999999</a>
+                </div>
+                <div class="footer-content__logo">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <div class="footer-content__politic" id="modalOpen">Связаться с нами</div>
+            </div>
+        </div>
+    </div>
+	<script src='app.js'></script>
+</body>
+</html>
